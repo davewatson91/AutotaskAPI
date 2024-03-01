@@ -23,6 +23,7 @@
         "https://pres.autotask.net/atservicesrest",
         "https://webservices18.autotask.net/atservicesrest",
         "https://webservices19.autotask.net/atservicesrest",
+        "https://webservices26.autotask.net/atservicesrest",
         "https://webservices12.autotask.net/atservicesrest"
 .OUTPUTS
     none
@@ -46,6 +47,7 @@ function Add-AutotaskBaseURI (
         "https://pres.autotask.net/atservicesrest",
         "https://webservices18.autotask.net/atservicesrest",
         "https://webservices19.autotask.net/atservicesrest",
+        "https://webservices26.autotask.net/atservicesrest",
         "https://webservices12.autotask.net/atservicesrest")]
     [Parameter(Mandatory = $true)]$BaseURI
 ) {
